@@ -15,6 +15,11 @@
 		1BC8C7F41E4C75B400843271 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8C7F21E4C75B400843271 /* LaunchScreen.storyboard */; };
 		1BC8C7FF1E4C75B400843271 /* JsAndOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8C7FE1E4C75B400843271 /* JsAndOCTests.m */; };
 		1BC8C80A1E4C75B400843271 /* JsAndOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8C8091E4C75B400843271 /* JsAndOCUITests.m */; };
+		1BC8C8181E4DA1E400843271 /* haha.html in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8C8171E4DA1E400843271 /* haha.html */; };
+		1BC8C81B1E4DA77900843271 /* UIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8C81A1E4DA77900843271 /* UIWebViewController.m */; };
+		1BC8C8201E4DAF8800843271 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8C81F1E4DAF8800843271 /* index.html */; };
+		1BC8C8241E4DAFBF00843271 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC8C8221E4DAFBF00843271 /* WKWebViewController.m */; };
+		1BC8C8251E4DAFBF00843271 /* WKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC8C8231E4DAFBF00843271 /* WKWebViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		1BC8C8051E4C75B400843271 /* JsAndOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsAndOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC8C8091E4C75B400843271 /* JsAndOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsAndOCUITests.m; sourceTree = "<group>"; };
 		1BC8C80B1E4C75B400843271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC8C8171E4DA1E400843271 /* haha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = haha.html; path = ../../../../../Library/WebServer/Documents/haha.html; sourceTree = "<group>"; };
+		1BC8C8191E4DA77900843271 /* UIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIWebViewController.h; sourceTree = "<group>"; };
+		1BC8C81A1E4DA77900843271 /* UIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIWebViewController.m; sourceTree = "<group>"; };
+		1BC8C81F1E4DAF8800843271 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "../../../Downloads/OC-JS-WKWebView-master/OC与JS交互之WKWebView/index.html"; sourceTree = "<group>"; };
+		1BC8C8211E4DAFBF00843271 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewController.h; sourceTree = "<group>"; };
+		1BC8C8221E4DAFBF00843271 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewController.m; sourceTree = "<group>"; };
+		1BC8C8231E4DAFBF00843271 /* WKWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKWebViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,17 @@
 		1BC8C7E31E4C75B400843271 /* JsAndOC */ = {
 			isa = PBXGroup;
 			children = (
+				1BC8C81F1E4DAF8800843271 /* index.html */,
+				1BC8C8171E4DA1E400843271 /* haha.html */,
 				1BC8C7E71E4C75B400843271 /* AppDelegate.h */,
 				1BC8C7E81E4C75B400843271 /* AppDelegate.m */,
 				1BC8C7EA1E4C75B400843271 /* ViewController.h */,
 				1BC8C7EB1E4C75B400843271 /* ViewController.m */,
+				1BC8C8191E4DA77900843271 /* UIWebViewController.h */,
+				1BC8C81A1E4DA77900843271 /* UIWebViewController.m */,
+				1BC8C8211E4DAFBF00843271 /* WKWebViewController.h */,
+				1BC8C8221E4DAFBF00843271 /* WKWebViewController.m */,
+				1BC8C8231E4DAFBF00843271 /* WKWebViewController.xib */,
 				1BC8C7ED1E4C75B400843271 /* Main.storyboard */,
 				1BC8C7F01E4C75B400843271 /* Assets.xcassets */,
 				1BC8C7F21E4C75B400843271 /* LaunchScreen.storyboard */,
@@ -246,8 +265,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC8C8201E4DAF8800843271 /* index.html in Resources */,
 				1BC8C7F41E4C75B400843271 /* LaunchScreen.storyboard in Resources */,
 				1BC8C7F11E4C75B400843271 /* Assets.xcassets in Resources */,
+				1BC8C8251E4DAFBF00843271 /* WKWebViewController.xib in Resources */,
+				1BC8C8181E4DA1E400843271 /* haha.html in Resources */,
 				1BC8C7EF1E4C75B400843271 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +295,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC8C8241E4DAFBF00843271 /* WKWebViewController.m in Sources */,
 				1BC8C7EC1E4C75B400843271 /* ViewController.m in Sources */,
 				1BC8C7E91E4C75B400843271 /* AppDelegate.m in Sources */,
 				1BC8C7E61E4C75B400843271 /* main.m in Sources */,
+				1BC8C81B1E4DA77900843271 /* UIWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

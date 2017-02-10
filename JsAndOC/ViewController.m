@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "UIWebViewController.h"
+#import "WKWebViewController.h"
 
 @interface ViewController ()
 
@@ -16,9 +18,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)UIWebViewClick:(id)sender {
+    UIWebViewController *vc = [[UIWebViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:^{
+        
+    }];
+   }
+
+- (IBAction)WKWebViewClick:(id)sender {
+    WKWebViewController *vc = [[WKWebViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    [self presentViewController:nav animated:YES completion:^{
+        
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
