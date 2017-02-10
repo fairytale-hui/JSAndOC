@@ -107,6 +107,7 @@
 
 - (IBAction)clear:(id)sender {
     [self.wkWebView evaluateJavaScript:@"clear()" completionHandler:nil];
+    
 }
 
 
